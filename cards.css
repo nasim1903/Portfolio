@@ -1,0 +1,61 @@
+.card-carasouel {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    min-width: 1000px;
+}
+
+.card {
+    width: 210px;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    box-shadow:  9px 9px 27px #dbdbdb,
+             -9px -9px 27px #eee;
+    transition: transform 0.5s;
+    
+}
+
+.card:hover {
+    transform: translateY(-15px);
+}
+
+.card-color {
+    height: 40%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    background-color: #6176dd;
+}
+
+.card img, p {
+    position: relative;
+}
+
+.card img {
+    height: 80px;
+    padding-bottom: 10px;
+
+}
+
+.card p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.card h3 {
+    padding: 5px;
+}
+
+.card span {
+    color: #6176dd;
+    font-weight: 700;
+}
+
