@@ -6,6 +6,10 @@
     margin: 0;
 }
 
+section {
+    display: flex;
+}
+
 .container {
     margin: 0px 50px;
 }
@@ -61,6 +65,7 @@ body, html{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 
@@ -143,6 +148,33 @@ body, html{
 }
 
 
+/* API section */
+
+.apitext {
+    height: 400px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#APIbtn {
+    background-color: #6176dd;
+    color: #f8f8f8;
+    font-weight: 600;
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+#APIimg {
+    height: 300px;
+}
 
 /* MEDIA QUIRIES */
 
